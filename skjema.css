@@ -1,0 +1,63 @@
+form {
+
+	margin: auto;
+	position: relative;
+	width: 425px;
+	height: 500px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+	border: 1px solid black;
+background: -webkit-linear-gradient(bottom, #EEEEEE, #CCCCCC 175px);
+background: -moz-linear-gradient(bottom, #EEEEEE, #CCCCCC 175px);
+
+}
+
+input {
+	width: 400px;
+	margin: auto;
+	display: block;
+	border: 1px solid;
+	height: 20px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+p {
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+
+h1 {
+	margin-left: 10px;
+}
+
+textarea.melding {
+	margin-left: 10px;
+	width: 400px;
+	height: 150px;
+	border: 1px solid;
+	resize: none;
+
+}
+
+
+input#button:hover {
+	background-color: #99ffff;
+}
+
+input#button {
+	width: 190px;
+	background:#6aafaf;
+	font-size: 13px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px; border: 1px solid;
+
+}
+
+input#reset:hover {
+	background-color: #99ffff;
+}
