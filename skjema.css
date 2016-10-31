@@ -1,3 +1,4 @@
+/* Dette er boksen rundt skjemaet */
 form {
 
 	margin: auto;
@@ -9,11 +10,11 @@ form {
 	font-weight: bold;
 	padding: 10px;
 	border: 1px solid black;
-background: -webkit-linear-gradient(bottom, #EEEEEE, #CCCCCC 175px);
-background: -moz-linear-gradient(bottom, #EEEEEE, #CCCCCC 175px);
-
+	background: -webkit-linear-gradient(bottom, #EEEEEE, #CCCCCC 175px);
+	background: -moz-linear-gradient(bottom, #EEEEEE, #CCCCCC 175px);
 }
 
+/* Dette er tekstboksene brukeren fyller inn */
 input {
 	width: 400px;
 	margin: auto;
@@ -21,19 +22,22 @@ input {
 	border: 1px solid;
 	height: 20px;
 	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+   	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
+/* Denne er brukt for å endre posisjonen på paragrafen */
 p {
 	margin-bottom: 0px;
 	margin-left: 10px;
 }
 
+/* Endrer posisjonen på overskriften */
 h1 {
 	margin-left: 10px;
 }
 
+/* Meldingsboksen */
 textarea.melding {
 	margin-left: 10px;
 	width: 400px;
@@ -43,7 +47,7 @@ textarea.melding {
 
 }
 
-
+/* Endrer utseende på submit og reset knappen ved ulike hendelser */
 input#button:hover {
 	background-color: #99ffff;
 }
@@ -61,3 +65,4 @@ input#button {
 input#reset:hover {
 	background-color: #99ffff;
 }
+/* Avslutning på submit og reset knapp */
