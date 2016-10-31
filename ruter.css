@@ -1,15 +1,19 @@
+/* Dette er boksen */
 #table {
 	border: 3px solid black;
-	
 }
+
+/* Dette er boksene inni hovedboksen */
 td {
 border: 2px solid;
 height: 100px;
 width: 100px;
 text-align: center;
-
 }
-td.grønn {
+
+
+/* Dette endrer fargen på boksene */
+td.green {
 	background-color: green;
 }
 td.white {
