@@ -1,3 +1,4 @@
+/* Teksten som står på hvert enkelt bilde */
 p {
   z-index: 1000;
   font-size: 48px;
@@ -9,6 +10,7 @@ p {
   color: #fff;
 }
 
+/* Start posisjon til hvert enkelt bilde */
 .slider {
   overflow: hidden;
   height: 100%;
@@ -24,14 +26,16 @@ p {
   float: left;
 }
 
+/* Dette styrer animasjonen, når bilder kommer inn og forsvinner */
 .slider figure {
   position: relative;
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 30s slidy infinite;
+  animation: 30s slidy /* Navnet på animasjonen. Hvor mange repitisjoner -> */ infinite;
 }
 
+/* Dette er animasjonsarkitekturen. Styrer hvor lang tid animasjonen tar */
 @keyframes slidy {
 
   0% {
@@ -103,3 +107,8 @@ p {
   }
 
 }
+
+/*
+  Alle bilder er blitt redigert. Det som er blitt endret på er fargene på bildene. Noen er blitt gort mørkere, andre er lysere.
+  Noen av bildene er også blitt gjort skarpere. 
+*/
