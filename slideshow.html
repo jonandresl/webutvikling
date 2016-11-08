@@ -1,28 +1,51 @@
-<!DOCTYPE html>
-	<head>
-		<title>Slidewshow CSS3</title>
-		<link rel="stylesheet" type="text/css" href="slide.css">
-	</head>
-	<body>
-		<div class="slider">
-			<figure>
-				<div class="slide">
-					<p>New York</p>
-					<img src="images/newyork.jpg" alt="New york">
-				</div>
-				<div class="slide">
-					<p>Miami</p>
-					<img src="images/miami.jpg" alt="Miami">
-				</div>
-				<div class="slide">
-					<p>San Francisco</p>
-					<img src="images/sanfrancisco.jpg" alt="San Francisco">
-				</div>
-				<div class="slide">
-					<p>Washington DC</p>
-					<img src="images/washingtondc.jpg" alt="Washington DC">
-				</div>
-			</figure>
-		</div>
-	</body>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" media="screen" href="animation.css"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<title>Slideshow</title>
+</head>
+<body>
+
+<div class="content">
+	<h1>Slideshow</h1>
+</div>
+
+<div class="container">
+	<div id="content-slider">
+    	<div id="slider">
+        	<div id="mask">
+            <ul>
+							<li id="first" class="firstanimation">  <!-- ID for tooltip and class for animation -->
+		          <a href="#"> <img src="images/newyork.jpg" alt="New York"/> </a>
+		          <div class="tooltip"> <h1>New York</h1> </div>
+		          </li>
+
+							<li id="second" class="secondanimation">
+		          <a href="#"> <img src="images/washingtondc.jpg" alt="Washington DC"/> </a>
+		          <div class="tooltip"> <h1>Washington DC</h1> </div>
+		          </li>
+
+							<li id="third" class="thirdanimation">
+		          <a href="#"> <img src="images/sanfrancisco.jpg" alt="San Francisco"/> </a>
+		          <div class="tooltip"> <h1>San francisco</h1> </div>
+		          </li>
+
+							<li id="fourth" class="fourthanimation">
+		          <a href="#"> <img src="images/miami.jpg" alt="Miami"/> </a>
+		          <div class="tooltip"> <h1>Miami</h1> </div>
+		          </li>
+
+							<li id="fifth" class="fifthanimation">
+		 				 <a href="#"> <img src="images/lasvegas.jpg" alt="Las Vegas"/> </a>
+		 				 <div class="tooltip"> <h1>Las Vegas</h1> </div>
+		 				 </li>
+            </ul>
+            </div>
+            <div class="progress-bar"></div>
+        </div>
+    </div>
+</div>
+</body>
 </html>
